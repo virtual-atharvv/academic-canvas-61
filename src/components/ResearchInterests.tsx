@@ -1,23 +1,23 @@
 const ResearchInterests = () => {
   const interests = [
     "Multi-Agent Reinforcement Learning",
-    "Cooperative Game Theory",
+    "Decentralized Learning",
+    "Non-Euclidean Optimization",
+    "Federated Data Valuation",
     "Hedonic Games",
     "Coalition Formation",
-    "Federated Learning",
-    "Federated Valuation",
-    "Non-Euclidean Optimization",
-    "Riemannian Manifolds",
-    "Deep Learning Theory",
+    "Decision Systems",
+    "Cooperative Game Theory",
+    "Data Privacy",
+    "Distributed Optimization",
+    "Reinforcement Learning",
+    "Applied Machine Learning",
     "Convergence Analysis",
-    "Sample Complexity",
-    "Distributed Systems",
-    "Nash Equilibrium",
-    "Mechanism Design",
-    "Gradient Optimization",
-    "Neural Architecture Search",
-    "Transfer Learning",
-    "Meta-Learning"
+    "Policy Gradient Methods",
+    "Natural Actor-Critic",
+    "Shapley Values",
+    "Feature Selection",
+    "Interpretable AI"
   ];
 
   return (

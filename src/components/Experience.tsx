@@ -1,53 +1,53 @@
-import { Briefcase, FlaskConical, Code, Users } from "lucide-react";
+import { Briefcase, FlaskConical, GraduationCap, Building2 } from "lucide-react";
 
 const Experience = () => {
   const experiences = [
     {
-      year: "2024 - Present",
+      year: "June 2024 - Present",
       role: "Postdoctoral Researcher",
-      organization: "Advanced AI Research Lab",
-      icon: FlaskConical,
+      organization: "University of Central Florida",
+      icon: Building2,
       responsibilities: [
-        "Leading research in multi-agent reinforcement learning systems",
-        "Developing novel optimization algorithms for non-Euclidean manifolds",
-        "Mentoring PhD students and coordinating collaborative projects",
-        "Publishing high-impact research in top-tier conferences"
+        "Conducting advanced research on multi-agent reinforcement learning under Dr. Amrit Singh Bedi",
+        "Developing novel MARL algorithms for decentralized decision-making systems",
+        "Exploring optimization techniques for non-Euclidean spaces and manifold learning",
+        "Publishing research in top-tier ML conferences and journals"
       ]
     },
     {
-      year: "2023 - 2024",
-      role: "Machine Learning Research Scientist",
-      organization: "Technology Research Institute",
-      icon: Code,
-      responsibilities: [
-        "Designed and implemented federated learning frameworks",
-        "Conducted theoretical analysis of convergence properties",
-        "Collaborated with industry partners on real-world applications",
-        "Presented research findings at international conferences"
-      ]
-    },
-    {
-      year: "2020 - 2023",
-      role: "PhD Research Scholar",
-      organization: "University Research Center",
-      icon: Users,
-      responsibilities: [
-        "Investigated hedonic games and coalition formation",
-        "Developed computational methods for valuation in cooperative settings",
-        "Published research in peer-reviewed journals",
-        "Taught undergraduate courses in machine learning"
-      ]
-    },
-    {
-      year: "2019",
-      role: "Research Intern",
-      organization: "Corporate AI Lab",
+      year: "May 2023 - June 2024",
+      role: "Machine Learning Scientist",
+      organization: "One Network Enterprises",
       icon: Briefcase,
       responsibilities: [
-        "Implemented deep reinforcement learning agents",
-        "Optimized neural network architectures for efficiency",
-        "Contributed to open-source machine learning libraries",
-        "Collaborated with cross-functional research teams"
+        "Designed and deployed ML models for supply chain optimization",
+        "Developed data-driven decision systems for enterprise-scale applications",
+        "Applied reinforcement learning and optimization techniques to real-world problems",
+        "Collaborated with cross-functional teams to deliver production ML solutions"
+      ]
+    },
+    {
+      year: "July 2018 - June 2023",
+      role: "Ph.D. Research Scholar",
+      organization: "Indian Institute of Technology Bombay",
+      icon: GraduationCap,
+      responsibilities: [
+        "Dissertation: Multi-Agent Reinforcement Learning and Decision Making",
+        "Published multiple papers on MARL, hedonic games, and optimization",
+        "Developed theoretical frameworks for coalition formation in multi-agent systems",
+        "Advanced research in federated learning and data valuation mechanisms"
+      ]
+    },
+    {
+      year: "May 2020 - Aug 2020",
+      role: "Summer Research Intern",
+      organization: "IBM Research",
+      icon: FlaskConical,
+      responsibilities: [
+        "Developed interpretable feature selection using Shapley value-based approaches",
+        "Contributed to research on explainable AI and model interpretability",
+        "Implemented machine learning algorithms for real-world applications",
+        "Co-authored research paper on feature subset selection"
       ]
     }
   ];

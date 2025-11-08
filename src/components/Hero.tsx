@@ -20,7 +20,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl blur-2xl group-hover:blur-3xl transition-all duration-500 opacity-50"></div>
               <img
                 src={profileImage}
-                alt="Professional headshot of Postdoctoral Researcher specializing in Multi-Agent Reinforcement Learning"
+                alt="Professional headshot of Dr. Prashant Trivedi"
                 className="relative w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 rounded-2xl object-cover border-4 border-background shadow-elegant group-hover:scale-105 transition-transform duration-500"
                 width="224"
                 height="224"
@@ -32,12 +32,13 @@ const Hero = () => {
           
           <div className="mb-6">
             <span className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-4">
-              Postdoctoral Researcher
+              Post-doctoral Researcher | Ex-ML Scientist | Research Scholar (IIT Bombay)
             </span>
+            <p className="text-sm text-muted-foreground">Oviedo, Florida, United States</p>
           </div>
           
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70">
-            Research Portfolio
+            Dr. Prashant Trivedi
           </h1>
           
           <p className="text-xl sm:text-2xl text-muted-foreground mb-4 font-light">
@@ -45,7 +46,7 @@ const Hero = () => {
           </p>
           
           <p className="text-lg sm:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Advancing the frontiers of Machine Learning through innovative research in optimization, game theory, and distributed systems
+            Advancing Machine Learning through innovative research in MARL, optimization, data privacy in decentralized learning, and applied ML for real-world problems
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up">

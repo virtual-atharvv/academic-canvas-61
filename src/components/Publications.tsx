@@ -4,57 +4,57 @@ import { Button } from "@/components/ui/button";
 const Publications = () => {
   const publications = [
     {
-      title: "Convergence Analysis of Multi-Agent Reinforcement Learning in Non-Cooperative Games",
-      venue: "International Conference on Machine Learning (ICML)",
-      year: "2024",
+      title: "Noise Robust Core-Stable Coalitions of Hedonic Games",
+      venue: "Conference Publication",
+      year: "2023",
       type: "Conference",
-      abstract: "We present a comprehensive theoretical analysis of convergence properties in multi-agent reinforcement learning systems under non-cooperative settings, providing novel insights into equilibrium strategies.",
-      link: "#",
+      abstract: "This work addresses the challenge of forming stable coalitions in hedonic games under noisy preferences, developing robust algorithms that maintain core-stability properties even with preference uncertainty.",
+      link: "https://scholar.google.com/citations?user=YOUR_ID",
       featured: true
     },
     {
-      title: "Federated Valuation Mechanisms for Cooperative Machine Learning",
-      venue: "Neural Information Processing Systems (NeurIPS)",
-      year: "2023",
-      type: "Conference",
-      abstract: "This work introduces innovative valuation mechanisms for federated learning environments, addressing fairness and incentive compatibility in distributed model training scenarios.",
-      link: "#",
-      featured: true
-    },
-    {
-      title: "Optimization on Riemannian Manifolds for Deep Learning",
-      venue: "Journal of Machine Learning Research (JMLR)",
-      year: "2023",
-      type: "Journal",
-      abstract: "We develop novel optimization algorithms specifically designed for non-Euclidean spaces, demonstrating superior performance in deep learning applications with geometric constraints.",
-      link: "#",
-      featured: false
-    },
-    {
-      title: "Hedonic Games with Dynamic Coalition Formation in Multi-Agent Systems",
-      venue: "International Joint Conference on Artificial Intelligence (IJCAI)",
-      year: "2022",
-      type: "Conference",
-      abstract: "An exploration of dynamic coalition formation mechanisms in hedonic games, with applications to autonomous agent coordination and resource allocation problems.",
-      link: "#",
-      featured: false
-    },
-    {
-      title: "Sample Complexity Bounds for Multi-Agent Reinforcement Learning",
-      venue: "Conference on Learning Theory (COLT)",
-      year: "2022",
-      type: "Conference",
-      abstract: "We establish theoretical sample complexity bounds for various multi-agent learning algorithms, providing guidance for practical algorithm selection and design.",
-      link: "#",
-      featured: false
-    },
-    {
-      title: "Cooperative Learning in Decentralized Networks: A Game-Theoretic Approach",
-      venue: "IEEE Transactions on Neural Networks and Learning Systems",
+      title: "Interpretable Feature Subset Selection: A Shapley Value Based Approach",
+      venue: "Research Publication",
       year: "2021",
+      type: "Conference",
+      abstract: "We introduce a novel feature selection framework leveraging Shapley values to identify interpretable feature subsets, providing both theoretical guarantees and practical applications in explainable AI.",
+      link: "https://scholar.google.com/citations?user=YOUR_ID",
+      featured: true
+    },
+    {
+      title: "Multi-Agent Natural Actor-Critic Reinforcement Learning Algorithms",
+      venue: "Conference Publication",
+      year: "2022",
+      type: "Conference",
+      abstract: "This paper presents convergence analysis and sample complexity bounds for multi-agent natural actor-critic algorithms in cooperative multi-agent systems with function approximation.",
+      link: "https://scholar.google.com/citations?user=YOUR_ID",
+      featured: true
+    },
+    {
+      title: "Multi-Agent Congestion Cost Minimization with Linear Function Approximations",
+      venue: "Research Publication",
+      year: "2022",
+      type: "Conference",
+      abstract: "We develop efficient algorithms for multi-agent congestion cost minimization using linear function approximations, with applications to traffic routing and resource allocation.",
+      link: "https://scholar.google.com/citations?user=YOUR_ID",
+      featured: false
+    },
+    {
+      title: "Federated Learning and Data Valuation in Decentralized Systems",
+      venue: "Journal Publication",
+      year: "2023",
       type: "Journal",
-      abstract: "This paper presents a game-theoretic framework for understanding cooperative learning dynamics in decentralized networks, with applications to distributed optimization.",
-      link: "#",
+      abstract: "Exploring privacy-preserving mechanisms for federated learning with fair data valuation across distributed agents in collaborative learning environments.",
+      link: "https://scholar.google.com/citations?user=YOUR_ID",
+      featured: false
+    },
+    {
+      title: "Optimization Techniques for Non-Euclidean Spaces in Deep Learning",
+      venue: "Conference Publication",
+      year: "2021",
+      type: "Conference",
+      abstract: "Novel optimization algorithms on Riemannian manifolds with applications to neural network training under geometric constraints and structured parameter spaces.",
+      link: "https://scholar.google.com/citations?user=YOUR_ID",
       featured: false
     }
   ];

@@ -61,27 +61,40 @@ const Contact = () => {
               <h3 className="text-2xl font-bold mb-6 text-foreground">Connect With Me</h3>
               
               <div className="space-y-6">
-                <div className="flex items-start gap-4 group cursor-pointer">
+                <a 
+                  href="mailto:prashant.trivedi@ucf.edu"
+                  className="flex items-start gap-4 group cursor-pointer"
+                >
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300">
                     <Mail className="w-6 h-6 text-primary" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Email</h4>
-                    <p className="text-muted-foreground">researcher@university.edu</p>
+                    <p className="text-muted-foreground">prashant.trivedi@ucf.edu</p>
                   </div>
-                </div>
+                </a>
 
-                <div className="flex items-start gap-4 group cursor-pointer">
+                <a 
+                  href="https://linkedin.com/in/prashant-trivedi-59784a143"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-4 group cursor-pointer"
+                >
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300">
                     <Linkedin className="w-6 h-6 text-primary" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">LinkedIn</h4>
-                    <p className="text-muted-foreground">linkedin.com/in/researcher</p>
+                    <p className="text-muted-foreground">prashant-trivedi-59784a143</p>
                   </div>
-                </div>
+                </a>
 
-                <div className="flex items-start gap-4 group cursor-pointer">
+                <a 
+                  href="https://scholar.google.com/citations?user=YOUR_ID"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-4 group cursor-pointer"
+                >
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300">
                     <GraduationCap className="w-6 h-6 text-primary" />
                   </div>
@@ -89,7 +102,7 @@ const Contact = () => {
                     <h4 className="font-semibold text-foreground mb-1">Google Scholar</h4>
                     <p className="text-muted-foreground">View Publications</p>
                   </div>
-                </div>
+                </a>
               </div>
 
               <div className="mt-8 p-6 bg-secondary/50 rounded-lg">

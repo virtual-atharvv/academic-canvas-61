@@ -4,32 +4,32 @@ import profileImage from "@/assets/profile.jpg";
 const About = () => {
   const timeline = [
     {
-      year: "2024 - Present",
+      year: "June 2024 - Present",
       title: "Postdoctoral Researcher",
-      institution: "Leading Research Institution",
+      institution: "University of Central Florida",
       icon: Briefcase,
-      description: "Advancing multi-agent reinforcement learning and optimization techniques"
+      description: "Working under Dr. Amrit Singh Bedi on advanced MARL algorithms and optimization techniques"
     },
     {
-      year: "2020 - 2024",
+      year: "May 2023 - June 2024",
+      title: "Machine Learning Scientist",
+      institution: "One Network Enterprises",
+      icon: Briefcase,
+      description: "Developed ML solutions for supply chain optimization and real-world decision systems"
+    },
+    {
+      year: "July 2018 - June 2023",
       title: "Ph.D. in Computer Science",
-      institution: "Premier University",
+      institution: "Indian Institute of Technology Bombay",
       icon: GraduationCap,
-      description: "Dissertation on cooperative game theory and machine learning"
+      description: "Dissertation: Multi-Agent Reinforcement Learning and Decision Making"
     },
     {
-      year: "2018 - 2020",
-      title: "M.Sc. in Artificial Intelligence",
-      institution: "Top-tier University",
+      year: "May 2020 - Aug 2020",
+      title: "Summer Research Intern",
+      institution: "IBM Research",
       icon: Award,
-      description: "Focus on reinforcement learning and optimization"
-    },
-    {
-      year: "2014 - 2018",
-      title: "B.Sc. in Computer Engineering",
-      institution: "Renowned Institute",
-      icon: GraduationCap,
-      description: "Foundation in computer systems and algorithms"
+      description: "Contributed to research on interpretable feature selection and ML applications"
     }
   ];
 
@@ -59,9 +59,9 @@ const About = () => {
                     loading="lazy"
                     decoding="async"
                   />
-                  <h3 className="text-xl font-bold text-foreground mb-1">Dr. [Your Name]</h3>
+                  <h3 className="text-xl font-bold text-foreground mb-1">Dr. Prashant Trivedi</h3>
                   <p className="text-sm text-muted-foreground">Postdoctoral Researcher</p>
-                  <p className="text-sm text-muted-foreground">Machine Learning & Optimization</p>
+                  <p className="text-sm text-muted-foreground">University of Central Florida</p>
                 </div>
               </div>
               
@@ -69,19 +69,22 @@ const About = () => {
                 <h3 className="text-2xl font-bold mb-4 text-foreground">Research Focus</h3>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    My research bridges the gap between theoretical foundations and practical applications 
-                    in multi-agent systems, with a particular emphasis on reinforcement learning and 
-                    cooperative game theory.
+                    Currently a Postdoctoral Researcher at the University of Central Florida, working under 
+                    the guidance of Dr. Amrit Singh Bedi. My research focuses on advancing Multi-Agent 
+                    Reinforcement Learning (MARL), optimization techniques, and data privacy in decentralized 
+                    learning systems.
                   </p>
                   <p>
-                    I specialize in developing novel optimization algorithms for non-Euclidean spaces and 
-                    exploring how machine learning can enhance our understanding of complex strategic 
-                    interactions in distributed systems.
+                    I completed my Ph.D. at the Indian Institute of Technology Bombay, where my dissertation 
+                    explored Multi-Agent Reinforcement Learning and Decision Making. Previously, I served as 
+                    a Machine Learning Scientist at One Network Enterprises, applying cutting-edge ML 
+                    solutions to supply chain optimization and complex decision systems.
                   </p>
                   <p>
-                    Through collaborative research and rigorous experimentation, I strive to push the 
-                    boundaries of what's possible in artificial intelligence while maintaining strong 
-                    theoretical foundations.
+                    My research philosophy centers on bridging theoretical foundations with practical 
+                    applications, developing novel algorithms for non-Euclidean optimization, federated 
+                    learning, and cooperative game theory to solve real-world challenges in artificial 
+                    intelligence and distributed systems.
                   </p>
                 </div>
               </div>

@@ -1,40 +1,42 @@
-import { Code, Layers, Wrench } from "lucide-react";
+import { Code, Layers, Brain } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Machine Learning & Optimization",
-      icon: Layers,
+      title: "Machine Learning & RL Frameworks",
+      icon: Brain,
       skills: [
-        { name: "Reinforcement Learning", level: 95 },
-        { name: "Deep Learning", level: 90 },
-        { name: "Optimization Theory", level: 92 },
-        { name: "Game Theory", level: 88 },
-        { name: "Statistical Learning", level: 85 }
+        { name: "PyTorch", level: 95 },
+        { name: "JAX", level: 88 },
+        { name: "TensorFlow", level: 85 },
+        { name: "OpenAI Gym", level: 90 }
       ]
     },
     {
-      title: "Programming & Tools",
+      title: "Optimization & Theory",
+      icon: Layers,
+      skills: [
+        { name: "Non-Euclidean Optimization", level: 92 },
+        { name: "Multi-Agent RL", level: 95 },
+        { name: "Game Theory", level: 90 },
+        { name: "Federated Learning", level: 87 }
+      ]
+    },
+    {
+      title: "Programming & Mathematics",
       icon: Code,
       skills: [
         { name: "Python", level: 95 },
-        { name: "PyTorch", level: 92 },
-        { name: "JAX", level: 88 },
-        { name: "TensorFlow", level: 85 },
-        { name: "NumPy/SciPy", level: 90 }
-      ]
-    },
-    {
-      title: "Research & Development",
-      icon: Wrench,
-      skills: [
-        { name: "Algorithm Design", level: 93 },
-        { name: "Theoretical Analysis", level: 90 },
-        { name: "Experimental Design", level: 88 },
-        { name: "Technical Writing", level: 87 },
-        { name: "Collaborative Research", level: 90 }
+        { name: "NumPy/SciPy", level: 93 },
+        { name: "Probability & Statistics", level: 90 },
+        { name: "Mathematical Optimization", level: 92 }
       ]
     }
+  ];
+
+  const additionalTools = [
+    "Scikit-learn", "Pandas", "Matplotlib", "Git", "Docker",
+    "Ray RLlib", "Weights & Biases", "LaTeX", "MATLAB", "Linux"
   ];
 
   return (
@@ -89,7 +91,7 @@ const Skills = () => {
           <div className="mt-12 text-center animate-fade-in-up">
             <h3 className="text-xl font-bold mb-6 text-foreground">Additional Tools & Technologies</h3>
             <div className="flex flex-wrap justify-center gap-3">
-              {["Git", "Docker", "Linux", "CUDA", "Jupyter", "LaTeX", "Matplotlib", "Scikit-learn", "OpenAI Gym", "Ray RLlib", "Weights & Biases"].map((tool, index) => (
+              {additionalTools.map((tool, index) => (
                 <span 
                   key={index}
                   className="px-4 py-2 bg-card rounded-lg text-sm font-medium text-foreground border border-border hover:border-primary transition-colors duration-200"
