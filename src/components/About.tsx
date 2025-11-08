@@ -1,4 +1,5 @@
 import { GraduationCap, Briefcase, Award } from "lucide-react";
+import profileImage from "@/assets/profile.jpg";
 
 const About = () => {
   const timeline = [
@@ -44,8 +45,26 @@ const About = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-start">
-            {/* Biography */}
-            <div className="animate-fade-in-up">
+            {/* Biography with Photo */}
+            <div className="animate-fade-in-up space-y-6">
+              {/* Profile Photo Card */}
+              <div className="card-elegant">
+                <div className="flex flex-col items-center text-center">
+                  <img
+                    src={profileImage}
+                    alt="Researcher profile photograph"
+                    className="w-48 h-48 rounded-xl object-cover border-2 border-border mb-4 shadow-card"
+                    width="192"
+                    height="192"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <h3 className="text-xl font-bold text-foreground mb-1">Dr. [Your Name]</h3>
+                  <p className="text-sm text-muted-foreground">Postdoctoral Researcher</p>
+                  <p className="text-sm text-muted-foreground">Machine Learning & Optimization</p>
+                </div>
+              </div>
+              
               <div className="card-elegant">
                 <h3 className="text-2xl font-bold mb-4 text-foreground">Research Focus</h3>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">

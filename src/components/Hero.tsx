@@ -1,5 +1,6 @@
 import { ArrowRight, BookOpen, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import profileImage from "@/assets/profile.jpg";
 
 const Hero = () => {
   return (
@@ -13,6 +14,22 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
+          {/* Professional Headshot */}
+          <div className="mb-8 flex justify-center">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl blur-2xl group-hover:blur-3xl transition-all duration-500 opacity-50"></div>
+              <img
+                src={profileImage}
+                alt="Professional headshot of Postdoctoral Researcher specializing in Multi-Agent Reinforcement Learning"
+                className="relative w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 rounded-2xl object-cover border-4 border-background shadow-elegant group-hover:scale-105 transition-transform duration-500"
+                width="224"
+                height="224"
+                loading="eager"
+                decoding="async"
+              />
+            </div>
+          </div>
+          
           <div className="mb-6">
             <span className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-4">
               Postdoctoral Researcher
